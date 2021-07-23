@@ -1,14 +1,26 @@
 
+#foto_autor{
+    
+    
+}
 #titulo{
-    font-family: NotoSansJP;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    padding: 50px;
+    background-color: rgb(5, 70, 70);
+    color: rgb(255, 255, 255);
 }
 body{
     background-color: white;
+    padding: 0px;
+    margin:0px;
+
 }
 button{
     
-    font-family: NotoSansJP;
-    font-family: "Noto";
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 30px 20px;
     border: 0px;
     margin: 0px;
@@ -16,6 +28,9 @@ button{
     font-size: 20px;
     font-weight: 600;
     color: snow;
+}
+#habilidades{
+    background-color: rgba(175, 175, 175, 0.61);
 }
 #btn_apresentacao{
     background-color: rgb(64, 224, 208);

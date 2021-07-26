@@ -7,27 +7,46 @@
     border: 0px;
 }
 body{
-    background-color: white;
+    background: url("./imagens/background.jpg") no-repeat right top fixed;
+    background-size: 4000px;
 }
 .container{
+    background-color: cornsilk;
     width: 80%;
     margin:0 auto;
-}
-.foto-autor{
 
 }
-.titulo{
-
+.foto_autor{
+    height: 140px;
 }
-.subtitulo{
-
+.informacoes{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+}
+.nome,.funcao{
+    height: 70px;
+    display: inline-block;
+}
+.nome{
+    background-color: rgb(81, 151, 113);
+}
+.funcao{
+    background-color: cadetblue;
+}
+nav{
+    display: inline-block;
+    position:absolute;
+    top: 70px;
 }
 
 .container a button{
     width: 100px;
-    height: 55px;
+    height: 70px;
 }
-
+.sociais{
+    width: 20px;
+}
 #btn_apresentacao{
     background-color: rgb(64, 224, 208);
 }

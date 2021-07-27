@@ -2,30 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
-    
     <link rel="stylesheet" type="text/css" href="style.css">
     <title> Portifólio Iury Roque </title>
 </head>
+<body>
+    
+    <div class="container">
         <!-- Pagina fixa com abas não vai ser necessario rolar para baixo -->
-    <div id="apresentacao"> 
+    <section class="apresentacao"> 
         
         <!-- Foto à esquerda (trocar foto) -->
-        <img id="foto_autor" width="150px" src="imagens/Iury.jpeg" alt="Foto de passeio no parque Belvedere Paulo Afonso-Ba">
+        <img class="foto_autor" src="imagens/Iury.jpeg" alt="Foto de passeio no parque Belvedere Paulo Afonso-Ba">
         <!-- Nome Posição: superior direita, mais a direita o titulo de dev web, ux, ui... -->    
-            <h1 id="titulo">Iury Roque</h1>
+        <div class="informacoes">
+            <h1 class="nome">Iury Roque</h1>
+            <h2 class="funcao">Web Developer</h2>    
+        </div>
         <!-- Botões com o mesmo tamanho com links para as abas, ao clickar a cor do icone vai inverter com a cor
         do botão -->    
-            <button id="btn_apresentacao">Quem Sou</button>
-            <button id="btn_habilidades">Habilidades</button>
-            <button id="btn_experiencia">Experiência</button>
-            <button id="btn_redes">Redes</button>
-            <button id="btn_contato">Contato</button>
+        <nav class="botoes">
+            <a href=""><button id="btn_apresentacao">Quem Sou</button></a>
+            <a href=""><button id="btn_habilidades">Habilidades</button></a>
+            <a href=""><button id="btn_experiencia">Experiência</button></a>
+            <a href=""><button id="btn_redes">Redes</button></a>
+            <a href=""><button id="btn_contato">Contato</button></a>
+        </nav>
         <hr>
         <div>
             <!-- Links para as redes serão na aba redes -->
-            <a href="https://github.com/iuryroque"><img width="70px"  src="imagens/img_github3.png"></a>
-            <a href="https://www.linkedin.com/in/iuryroque/"><img width="70px" src="imagens/img_linkedin3.png"></a>
+            <a href="https://github.com/iuryroque">
+                <img class="sociais" src="imagens/img_github3.png">
+            </a>
+            <a href="https://www.linkedin.com/in/iuryroque/">
+                <img class="sociais" src="imagens/img_linkedin3.png">
+            </a>
         </div>
         <div> 
         </div>
@@ -33,11 +43,11 @@
         <p>Sou Iury Roque mais conhecido como pai de <b><i>Iris</i></b> hueahaue, natural e cidadão de <b>Paulo Afonso- BA</b>
         terra da energia, estudante de sistemas de informação na unirios e funcionario da trator auto peças.
         Ingressei na trybe por gostar de aprender e de tecnologia além de visar um emprego na área.</p>
-    </div>
+    </section>
     <hr>
     <!-- Colocar habilidades da area que irei atuar com breve descrição e link saiba mais apontando
          para meu trabalho na area-->
-    <div id="habilidades">
+    <div class="habilidades">
         <ul>
             <h2><b>Habilidades que Possuo</b></h2>
             <li><b>Técnico de Sonorização</b></li>
@@ -47,14 +57,16 @@
     </div>
     <hr>
     <!-- Apagar posteriormente -->
-    <div id="links">   
+    <div class="links">   
         <a target="_blank" href="imagens/Iury.jpeg">Link para a foto do autor</a><br>
         <a target="_blank" href="http://www.dimasroque.com.br/">Link para um blog que amo</a> 
     </div>
-  
+</div>  
 
     
     <!-- Pesquisar como que se faz um rodapé -->
+
+    
 </body>
 <footer>Desenvolvido Por Iury Roque</footer>
 </html>
